@@ -6,11 +6,12 @@ import MailIcon from '@mui/icons-material/Mail';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import SmartphoneIcon from '@mui/icons-material/Smartphone';
+import CallIcon from '@mui/icons-material/Call';
 
 
 function ContactUs() {
 
-  function handleForm(event) { event.preventDefault() };
+  // function handleForm(event) { event.preventDefault() };
 
   return (
     <div className="app_ContactUs">
@@ -29,7 +30,7 @@ function ContactUs() {
             <li>
               <LocationOnIcon></LocationOnIcon>
               <p>
-                Ajman Free Zone - C1, Sheikh Rashed Bin Saeed Al Maktoum road, Liwara 1, Al Bustan, Ajman
+                Ajman Free Zone - C1-1102, Sheikh Rashed Bin Saeed Al Maktoum road, Liwara 1, Al Bustan, Ajman
               </p>
             </li>
             <li>
@@ -37,9 +38,15 @@ function ContactUs() {
               <p>jsr@jsr-intlfzc.com</p>
             </li>
             <li>
-              <SmartphoneIcon></SmartphoneIcon>
-              <p>+971504818295</p>
-            </li>
+                {/* <h4>Telephone :</h4> */}
+                <CallIcon></CallIcon>
+                <p>+971 6 746 2488</p>
+              </li>
+              <li>
+                {/* <h4>Mobile :</h4> */}
+                <SmartphoneIcon ></SmartphoneIcon>
+                <p>+971 50 481 8295</p>
+              </li>
             <li>
               <AccessTimeIcon></AccessTimeIcon>
               <p>Monday to Saturday:9.00am to 7.00pm</p>

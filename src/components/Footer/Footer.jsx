@@ -28,17 +28,17 @@ function Footer() {
               <li>
                 {/* <h4>Address :</h4> */}
                 <LocationOnIcon ></LocationOnIcon>
-                <p>Ajman Free Zone - C1, Sheikh Rashed Bin Saeed Al Maktoum road, Liwara 1, Al Bustan, Ajman</p>
+                <p>Ajman Free Zone - C1-1102, Sheikh Rashed Bin Saeed Al Maktoum road, Liwara 1, Al Bustan, Ajman</p>
               </li>
               <li>
                 {/* <h4>Telephone :</h4> */}
                 <CallIcon></CallIcon>
-                <p>+971504818295</p>
+                <p>+971 6 746 2488</p>
               </li>
               <li>
                 {/* <h4>Mobile :</h4> */}
                 <SmartphoneIcon ></SmartphoneIcon>
-                <p>+97167462488</p>
+                <p>+971 50 481 8295</p>
               </li>
               <li>
                 {/* <h4>Email :</h4> */}
