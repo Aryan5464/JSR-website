@@ -34,7 +34,7 @@ function ContactUs() {
             </li>
             <li>
               <MailIcon></MailIcon>
-              <p>jsrinternationalfzc@gmail.com</p>
+              <p>jsr@jsr-intlfzc.com</p>
             </li>
             <li>
               <SmartphoneIcon></SmartphoneIcon>
@@ -59,7 +59,7 @@ function ContactUs() {
         </div>
       </section>
 
-      <section id="form-details">
+      {/* <section id="form-details">
         <form name="contact-us" action="" method="post" onSubmit={handleForm}>
           <span>LEAVE A MESSAGE</span>
           <h2>We love to hear from you..</h2>
@@ -100,7 +100,7 @@ function ContactUs() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

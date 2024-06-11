@@ -43,7 +43,7 @@ function Footer() {
               <li>
                 {/* <h4>Email :</h4> */}
                 <MailIcon></MailIcon>
-                <p>jsrinternationalfzc@gmail.com</p>
+                <p>jsr@jsr-intlfzc.com</p>
               </li>
             </ul>
           </div>
