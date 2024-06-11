@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
 import "./ContactUs.css";
 import Navbar from '../Navbar/Navbar';
@@ -8,12 +9,12 @@ import SmartphoneIcon from '@mui/icons-material/Smartphone';
 
 
 function ContactUs() {
-    
-    function handleForm(event) { event.preventDefault() };
+
+  function handleForm(event) { event.preventDefault() };
 
   return (
     <div className="app_ContactUs">
-    <Navbar></Navbar>
+      <Navbar></Navbar>
       <section id="page-header" className="about-header">
         <h2>#let's_talk</h2>
         <p className="contact-p">LEAVE A MESSAGE. We Love to hear from you!</p>
@@ -26,31 +27,31 @@ function ContactUs() {
           <h3>Head Office</h3>
           <div>
             <li>
-             <LocationOnIcon></LocationOnIcon>
+              <LocationOnIcon></LocationOnIcon>
               <p>
-              PO BOX 15705, AJMAN FREE ZONE, AJMAN, UNITED ARAB EMIRATES
+                Ajman Free Zone - C1, Sheikh Rashed Bin Saeed Al Maktoum road, Liwara 1, Al Bustan, Ajman
               </p>
             </li>
             <li>
               <MailIcon></MailIcon>
-              <p>jsr@jsr-intlfzc.com</p>
+              <p>jsrinternationalfzc@gmail.com</p>
             </li>
             <li>
               <SmartphoneIcon></SmartphoneIcon>
-              <p>+97 1509353470</p>
+              <p>+971504818295</p>
             </li>
             <li>
-             <AccessTimeIcon></AccessTimeIcon>
+              <AccessTimeIcon></AccessTimeIcon>
               <p>Monday to Saturday:9.00am to 7.00pm</p>
             </li>
           </div>
         </div>
         <div className="map">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.342621930599!2d55.42819397481682!3d25.393339423729316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f597e2eca45e5%3A0xf9cdbba61b00aa9c!2sJSR%20INTERNATIONAL%20FZC!5e0!3m2!1sen!2sin!4v1686897168165!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10677.734185566449!2d55.44554420308834!3d25.42040982691397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5784a7c97153%3A0x2f7b6f7ff376bcb3!2sAjman%20Free%20Zone!5e0!3m2!1sen!2sin!4v1718096248291!5m2!1sen!2sin"
             width="600"
             height="450"
-            style={{border: 0}}
+            style={{ border: 0 }}
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
@@ -62,9 +63,9 @@ function ContactUs() {
         <form name="contact-us" action="" method="post" onSubmit={handleForm}>
           <span>LEAVE A MESSAGE</span>
           <h2>We love to hear from you..</h2>
-          <input type="text" placeholder="Your Name" name="Name" style={{color: "black"}} />
-          <input type="email" placeholder="E-mail" name="E-mail" required style={{color: "black"}}/>
-          <input type="text" placeholder="Subject" name="Subject" style={{color: "black"}}/>
+          <input type="text" placeholder="Your Name" name="Name" style={{ color: "black" }} />
+          <input type="email" placeholder="E-mail" name="E-mail" required style={{ color: "black" }} />
+          <input type="text" placeholder="Subject" name="Subject" style={{ color: "black" }} />
           <textarea
             name="Message"
             id=""
@@ -72,7 +73,7 @@ function ContactUs() {
             rows="10"
             placeholder="Your Message"
             required
-            style={{color: "black"}}
+            style={{ color: "black" }}
           ></textarea>
           <button>Submit</button>
         </form>

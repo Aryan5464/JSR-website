@@ -28,22 +28,22 @@ function Footer() {
               <li>
                 {/* <h4>Address :</h4> */}
                 <LocationOnIcon ></LocationOnIcon>
-                <p>PO BOX 15705, AJMAN FREE ZONE AJMAN, UNITED ARAB EMIRATES</p>
+                <p>Ajman Free Zone - C1, Sheikh Rashed Bin Saeed Al Maktoum road, Liwara 1, Al Bustan, Ajman</p>
               </li>
               <li>
                 {/* <h4>Telephone :</h4> */}
                 <CallIcon></CallIcon>
-                <p>+97 1-6-7462488</p>
+                <p>+971504818295</p>
               </li>
               <li>
                 {/* <h4>Mobile :</h4> */}
                 <SmartphoneIcon ></SmartphoneIcon>
-                <p>+97 1509353470</p>
+                <p>+97167462488</p>
               </li>
               <li>
                 {/* <h4>Email :</h4> */}
                 <MailIcon></MailIcon>
-                <p>jsr@jsr-intlfzc.com</p>
+                <p>jsrinternationalfzc@gmail.com</p>
               </li>
             </ul>
           </div>
