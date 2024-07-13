@@ -27,11 +27,20 @@ function Plastic() {
           description="The postconsumer plastics recycling process consists of several steps. The first step is the collection of waste plastics (Bataineh, 2020; Franklin Associates, 2018; Santos et al., 2021). In terms of collection, MSW and industrial waste can be differentiated (Willis et al., 2020). The former process includes the collection of postconsumer plastic waste, which is typically mixed and contains contaminants."
         />
         <div className="itemProductContainer">
-          <Link className="items" to={"/LDPE"}>
-            LDPE
+          <Link className="items" to={"/PC"}>
+            PC
           </Link>
           <Link className="items" to={"/HDPE"}>
             HDPE
+          </Link>
+          <Link className="items" to={"/PET"}>
+            PET
+          </Link>
+          <Link className="items" to={"/Rubber"}>
+          BUTY
+          </Link>
+          <Link className="items" to={"/LDPE"}>
+            LDPE
           </Link>
           <Link className="items" to={"/PS"}>
             PS
@@ -39,9 +48,7 @@ function Plastic() {
           <Link className="items" to={"/PVC"}>
             PVC
           </Link>
-          <Link className="items" to={"/PET"}>
-            PET
-          </Link>
+          
           <Link className="items" to={"/PP"}>
             PP
           </Link>

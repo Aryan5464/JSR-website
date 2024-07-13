@@ -33,7 +33,7 @@ function AboutUs() {
             to create added value to the string between producers and end-
             users. Furthermore, we have a systematic infrastructure of multiple
             strategically selected warehouses, logistic partners, shipping lines
-            and relations with multiple suppliers throughout Europe to fulfill
+            and relations with multiple suppliers throughout Europe, Middle East, Faris, South America, Canada, to fulfill
             all our customers’ needs. JSR strategy is to create added value to
             the string between producers and end- users.
           </p>

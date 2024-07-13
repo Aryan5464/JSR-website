@@ -55,6 +55,8 @@ function App() {
           <Route path="/PVC" element={<ProductItems data={products.PVC}/>} />
           <Route path="/PS" element={<ProductItems data={products.PS}/>} />
           <Route path="/HDPE" element={<ProductItems data={products.HDPE}/>} />
+          <Route path="/PC" element={<ProductItems data={products.PC}/>} />
+          <Route path="/Rubber" element={<ProductItems data={products.Rubber}/>} />
           <Route path="/metal" element={<Metal/>} />
           <Route path="/stainless_still" element={<ProductItems data={products.Stainless_Steel}/>} />
           <Route path="/electric_motor" element={<ProductItems data={products.Electric_Motor}/>} />

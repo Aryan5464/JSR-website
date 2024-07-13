@@ -24,7 +24,7 @@ function ContactUs() {
       <section id="contact">
         <div className="details">
           <span>GET IN TOUCH</span>
-          <h2>Visit one of our agency locations or contact us today</h2>
+          <h2>Visit Us!</h2>
           <h3>Head Office</h3>
           <div>
             <li>
