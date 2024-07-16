@@ -9,7 +9,7 @@ function Carousal() {
   return (
     <div className="app_carousal">
       <div className="app_carousal-carousal">
-        <div
+        {/* <div
           id="carouselExampleInterval"
           class="carousel slide"
           data-bs-ride="carousel"
@@ -28,7 +28,21 @@ function Carousal() {
               <img src="/images/JSR_Inter_project_pics/Metal/Compressor_Scrap/Compressor-Scrap-6.jpeg" class="d-block" alt="..." />
             </div>
           </div>
-        </div>
+        </div> */}
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/images/JSR_Inter_project_pics/products.jpeg" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="/images/JSR_Inter_project_pics/Rubber/USED-BUTYL-RUBBER-TUBES-4.png" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="/images/JSR_Inter_project_pics/Metal/Compressor_Scrap/Compressor-Scrap-6.jpeg" class="d-block w-100" alt="..."/>
+    </div>
+  </div>
+  
+</div>
       </div>
       <div className="app_carousal-content">
         <h2><span className="heading-initial">O</span>UR PRODUCTS</h2>
