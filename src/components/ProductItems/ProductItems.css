@@ -44,6 +44,14 @@
   
   
 }
+.discription-part2 {
+  display: flex;
+  justify-content: space-around;
+
+  gap: 13%;
+  
+  
+}
 
 .image {
     padding: 20px;

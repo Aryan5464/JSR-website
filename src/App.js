@@ -12,6 +12,7 @@ import Footer from './components/Footer/Footer';
 
 
 import ProductItems from './components/ProductItems/ProductItems';
+import PCItems from './components/ProductItems/PCItems';
 import AboutUs from './components/AboutPage/AboutUs';
 // import Navbar from './components/Navbar/Navbar';
 import Intro from './components/Intro/Intro';
@@ -55,7 +56,7 @@ function App() {
           <Route path="/PVC" element={<ProductItems data={products.PVC}/>} />
           <Route path="/PS" element={<ProductItems data={products.PS}/>} />
           <Route path="/HDPE" element={<ProductItems data={products.HDPE}/>} />
-          <Route path="/PC" element={<ProductItems data={products.PC}/>} />
+          <Route path="/PC" element={<PCItems data={products.PC}/>} />
           <Route path="/Rubber" element={<ProductItems data={products.Rubber}/>} />
           <Route path="/metal" element={<Metal/>} />
           <Route path="/stainless_still" element={<ProductItems data={products.Stainless_Steel}/>} />

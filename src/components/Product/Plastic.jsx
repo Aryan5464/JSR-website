@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import Carousal from "../Carousal/Carousal";
 
-function Plastic() {
+function Plastic(data2) {
   const data = {
     photo1: "/images/JSR_Inter_project_pics/plastic/HDPE/IMG_1309.jpg",
     photo2: "/images/JSR_Inter_project_pics/plastic/PET/PET-ROLLS-2-2.jpg",
@@ -13,6 +13,9 @@ function Plastic() {
     photo4:
       "/images/JSR_Inter_project_pics/plastic/PVC/5c6852cf-85fe-4852-bcca-8483bb81e6de.jpg",
   };
+  // const data2 = {
+  //   PC: "../ProductItems2/ProductItems2.js"
+  // }
   return (
     // <Router>
     <>
@@ -27,7 +30,7 @@ function Plastic() {
           description="The postconsumer plastics recycling process consists of several steps. The first step is the collection of waste plastics (Bataineh, 2020; Franklin Associates, 2018; Santos et al., 2021). In terms of collection, MSW and industrial waste can be differentiated (Willis et al., 2020). The former process includes the collection of postconsumer plastic waste, which is typically mixed and contains contaminants."
         />
         <div className="itemProductContainer">
-          <Link className="items" to={"/PC"}>
+          <Link className="items" to="/PC">
             PC
           </Link>
           <Link className="items" to={"/HDPE"}>
