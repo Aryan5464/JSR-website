@@ -35,13 +35,13 @@ function Quality() {
      
         <section className="images">
           <div className="image-quality">
-            <img src="/images/JSR_Inter_project_pics/ISO-14001_CERTIFICATE-_VARITAS-1-scaled.jpg" alt="ISO-14001" />
+            <img src="/images/JSR_Inter_project_pics/ISO-9001_CERTIFICATE-_VARITAS-1-scaled.png" alt="ISO-9001" />
           </div>
           <div className="image-quality">
-            <img src="/images/JSR_Inter_project_pics/ISO-9001_CERTIFICATE-_VARITAS-1-scaled.jpg" alt="ISO-9001" />
+            <img src="/images/JSR_Inter_project_pics/ISO-14001_CERTIFICATE-_VARITAS-1-scaled.png" alt="ISO-14001" />
           </div>
           <div className="image-quality">
-            <img src="/images/JSR_Inter_project_pics/ISO45001_-CERTIFICATE-_VARITAS-1-scaled.jpg" alt="ISO-45001" />
+            <img src="/images/JSR_Inter_project_pics/ISO45001_-CERTIFICATE-_VARITAS-1-scaled.png" alt="ISO-45001" />
           </div>
         </section>
      
